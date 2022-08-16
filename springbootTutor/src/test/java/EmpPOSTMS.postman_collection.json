@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "b12d5262-2483-445c-9696-4af9ad090320",
+		"name": "EmpPOSTMS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\":\"andrew\",\r\n\"age\":18,\r\n\"salary\":9090.00\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/postbody",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"postbody"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
